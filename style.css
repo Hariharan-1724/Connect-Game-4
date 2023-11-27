@@ -1,0 +1,47 @@
+body {
+    background: repeating-linear-gradient(45deg, #ffa000, #ffa000 20px, #000 20px, #000 40px);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+    background-color: red;
+    border: 3px solid #ff0000;
+    border-image: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red) 1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.game-header {
+    color: #000;
+}
+
+.board-container {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    grid-gap: 5px;
+    margin-top: 20px;
+}
+
+.slot {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+  
